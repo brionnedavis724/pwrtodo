@@ -24,7 +24,6 @@ export const TodoList = ({ name, color, icon }) => {
                 ...todos,
             ])
         }
-    
         console.log(todos)
         setTodo('') // once todo is typed and plus sign is clicked, setTodo('') clears the input box
     } 
@@ -85,9 +84,11 @@ const CategoryIcon = styledComponents.div`
     margin-right: 10px;
 `
 const Title = styledComponents.div`
-    flex: 1 // take up all the space
-    font-size: 30px;
-    font-weight: 600;
+    // border: 1px solid blue;
+    // flex: 1 // take up all the space
+    padding-top: 3px;
+    font-size: 25px;
+    font-weight: 590;
 `
 
 const TodoInput = styledComponents.input`

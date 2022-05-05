@@ -27,7 +27,7 @@ export const Sidebar = ({ sidebarToggle, todoList }) => {
 }
 
 const Wrapper = styledComponents.div`
-    border: 1px solid pink;
+    // border: 1px solid pink;
     width: 70px;
     height: calc(100vh - 70px); // height of the window minus the height of the header
     background: #20212d;

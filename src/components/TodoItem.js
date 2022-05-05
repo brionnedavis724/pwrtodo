@@ -72,12 +72,13 @@ const TodoListItem = styledComponents.div`
     height: 50px;
     display: flex;
     align-items: center;
+    margin: 15px 20px;
     padding: 15px 20px;
     transition: 0.3s;
 
     input {
         flex: 1;
-        font-size: 22px;
+        font-size: 18px;
         outline: none;
         background: none;
         border: none;
